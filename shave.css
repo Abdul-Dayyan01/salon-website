@@ -1,0 +1,138 @@
+body{
+    font-family:"Inter" 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#9590cc;;
+    line-height: 1.8;
+    background-color:#151828;;
+}
+
+
+h1 h2 h3 h4 h5 h5{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+a{
+    color: #151828;
+    text-decoration: none;
+}
+
+.link-more{
+    display:inline-flex;
+    align-items: center;
+    display: inline-flex;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    
+}
+.link-more .icon{
+    transition: all 0.4s ease;
+}
+.link-more:hover .icon{
+    transform: translateX(8px);
+    
+    
+    
+}
+img{
+    width: 100%;
+
+}
+section{
+    padding-top: 160px;
+    padding-bottom: 160px;
+
+}
+/*INTR0 */
+.intro{
+    margin-bottom: 60px;
+}
+.intro h1{
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.cta-btns{
+    margin-top: 60px;
+}
+/* navbar-- */
+
+#navbar-color{
+    background-color:#181F34;
+}
+.navbar-nav{
+    margin: auto;
+    
+    
+
+}
+.nav-link{
+    margin-left:50px;
+    font-weight: bold;
+    color: #ffa876;
+    transition: 0.5s ease;
+    cursor: pointer;
+
+}
+.nav-link:hover{
+    color: orangered;
+    transition: 0.5s ease;
+}
+/*navbar*/
+  /*HERO */
+  #hero{
+    background: linear-gradient( to right, #181F34,rgba(27, 31, 52, 0.0)),url(5.jpg);
+    height:70vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+#hero p{
+    margin-top: -80px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+.btn{
+    padding: 10px 36px;
+background: linear-gradient( to right, #181F34,rgba(27, 31, 52, 0.0)); 
+    transition:all o.4s ease;
+}
+.btn.brand{
+    background-color: #ffa876;
+
+}
+    .btn-brand:hover{
+        background-color: transparent;
+        color:#ffa876;
+        border-color: #ffa876;
+    }
+    .btn-outline-brand{
+        background-color: transparent;
+        color: var#ffa876;
+        border-color:#ffa876;
+    }
+    .btn-outline-brand:hover{
+        background-color:#ffa876;
+    }
+ /*SERVI*/
+ #Services{
+    background-color: #181F34;
+ }
+
+    /*FOOTER*/
+footer{
+    padding-top: 160px;
+}
+footer .social-links{
+    display: flex;
+}
+.footer-top{
+    padding-bottom: 30px;
+}
+footer .social-links a{
+    margin-right: 5px;
+}
+.footer-bottom{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 1px solid #ffa876;
+}
